@@ -11,5 +11,12 @@ For example:
 */
 
 function drEvil(amount) {
+  if(amount != 1000000)
+  {
+    return (amount+" dollars")
+  }
+  else{
+    return (amount+" dollars (pinky)")
+  }
   // write your solution here...
 }

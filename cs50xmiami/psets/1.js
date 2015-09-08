@@ -10,3 +10,9 @@ Forgot how old someone is? Calculate it!
 */
 
 // write your solution here...
+
+var year = 2015;
+var birth = 2005;
+var age = year-birth;
+var age2 = age-1;
+console.log("They are either " +age2+" or "+age+".");

@@ -18,4 +18,21 @@ For example:
 
 function verbing(word) {
   // write your solution here...
+  String last = word.slice(word.length-3);
+  if(word.length > 3){
+    if(last == "ing"){
+      String ly = "ly";
+      String new = word.concat(ly);
+      return new;
+    }
+    else{
+      String ing = "ing";
+      String new = word.concat(ing);
+      return new;
+    }
+  }
+  else{
+    return word;
+  }
+
 }

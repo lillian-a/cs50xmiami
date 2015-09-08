@@ -12,3 +12,8 @@ Ever wonder how much a "lifetime supply" of your favorite snack is? Wonder no mo
 */
 
 // write your solution here...
+var age = 23;
+var max = 100;
+var amt = 2;
+var x = (max-age)*amt;
+console.log("You will need "+amt+" to last you until the ripe old age of "+max+".");

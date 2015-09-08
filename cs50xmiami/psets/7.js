@@ -13,4 +13,7 @@ fixStart('babble'): 'ba**le'
 
 function fixStart(s) {
   // write your solution here...
+  var p = s.valueOf();
+  var t = s.replace(p, "*");
+  return t;
 }

@@ -17,4 +17,19 @@ For example:
 
 function notBad(sentence) {
   // write your solution here...
+  var i = str.search("not");
+  var j = str.search("bad");
+  // if no not
+  if(i = -1){
+    return sentence;
+  }
+  else if(j < i){
+    return sentence;
+  }
+  else{
+    var str = sentence.substr(0, i);
+    var str2 = "is good!"
+    var new = str.concat(str2)
+    return new;
+  }
 }

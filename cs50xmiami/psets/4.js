@@ -11,3 +11,14 @@ http://www.mathsisfun.com/temperature-conversion.html
 */
 
 // write your solution here...
+
+//(°C × 9/5) + 32 = °F
+//(°F − 32) x 5/9 = °C
+
+var cels = 10;
+var cels2 = (cels*(9/5))+32;
+console.log(cels+"°C is "+cels2+"°F");
+
+var far = 10;
+var far2 = (far-32)*(5/9);
+console.log(far+"°F"+far2+"°C");

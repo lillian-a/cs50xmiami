@@ -14,4 +14,13 @@ Look up the JavaScript string reference to find methods which may be useful!
 
 function mixUp(a, b) {
   // write your solution here...
+    var as = a.charAt(0);
+    var bs = b.charAt(0);
+    var ab = a.slice(1);
+    var bb = b.slice(1);
+    String new1 = bs.concat(ab);
+    String new2 - as.concat(bb);
+    String space = " ";
+    String word = new1.concat(space, new2);
+    return word;
 }
